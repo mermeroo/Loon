@@ -1,14 +1,14 @@
 <AnyConnectProfile>
     <ServerList>
         <HostEntry>
-            <HostName>vpn.PO</HostName>
-            <HostAddress>pno.fvira59.com:13256</HostAddress>
+            <HostName>vpn.example.com</HostName>
+            <HostAddress>123.456.789.0</HostAddress>
         </HostEntry>
     </ServerList>
     <CertificateStore>Machine</CertificateStore>
     <CertificateStoreOverride>false</CertificateStoreOverride>
-    <DefaultUser>vip24433/DefaultUser>
-    <DefaultSecondUser>farahi</DefaultSecondUser>
+    <DefaultUser>farahi</DefaultUser>
+    <DefaultSecondUser>vip24433</DefaultSecondUser>
     <ClientCertificateThumbprint></ClientCertificateThumbprint>
     <AutomaticCertSelection>true</AutomaticCertSelection>
     <AutoConnect>true</AutoConnect>
@@ -17,7 +17,7 @@
     <BackupServerList>
         <HostEntry>
             <HostName>backupvpn.example.com</HostName>
-            <HostAddress><http://cit.dnsfinde.com:1397/HostAddress>
+            <HostAddress>123.456.789.1</HostAddress>
         </HostEntry>
     </BackupServerList>
     <AutoReconnect>true</AutoReconnect>
