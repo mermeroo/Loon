@@ -2,14 +2,15 @@
 <AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
  xsi:schemaLocation="http://schemas.xmlsoap.org/encoding/ AnyConnectProfile.xsd">
+    <ClientInitialization>
         <UseStartBeforeLogon UserControllable="true">false</UseStartBeforeLogon>
         <AutomaticCertSelection UserControllable="true">false</AutomaticCertSelection>
         <ShowPreConnectMessage>false</ShowPreConnectMessage>
         <CertificateStore>All</CertificateStore>
-        <CertificateStoreOverride>true</CertificateStoreOverride>
+        <CertificateStoreOverride>false</CertificateStoreOverride>
         <ProxySettings>Native</ProxySettings>
         <AllowLocalProxyConnections>true</AllowLocalProxyConnections>
-        <AuthenticationTimeout>7</AuthenticationTimeout>
+        <AuthenticationTimeout>12</AuthenticationTimeout>
         <AutoConnectOnStart UserControllable="true">false</AutoConnectOnStart>
         <MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
         <LocalLanAccess UserControllable="true">true</LocalLanAccess>
@@ -30,21 +31,10 @@
         </PPPExclusion>
         <EnableScripting UserControllable="false">false</EnableScripting>
         <EnableAutomaticServerSelection UserControllable="false">false
-            <AutoServerSelectionImprovement>8</AutoServerSelectionImprovement>
+            <AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
             <AutoServerSelectionSuspendTime>4</AutoServerSelectionSuspendTime>
         </EnableAutomaticServerSelection>
         <RetainVpnOnLogoff>false
         </RetainVpnOnLogoff>
-    </ClientInitialization>
-  <ServerList>
-    <HostEntry>
-      <HostName>vpn.example.com</HostName>
-      <HostAddress>vpn.example.com</HostAddress>
-    </HostEntry>
-    <HostEntry>
-      <HostName>vpn.example.org</HostName>
-      <HostAddress>vpn.example.org</HostAddress>
-    </HostEntry>
-  </ServerList>
     </ClientInitialization>
 </AnyConnectProfile>
