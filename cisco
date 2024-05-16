@@ -7,8 +7,8 @@
     </ServerList>
     <CertificateStore>Machine</CertificateStore>
     <CertificateStoreOverride>false</CertificateStoreOverride>
-    <DefaultUser>farahi</DefaultUser>
-    <DefaultSecondUser>vip24433</DefaultSecondUser>
+    <DefaultUser>user@example.com</DefaultUser>
+    <DefaultSecondUser></DefaultSecondUser>
     <ClientCertificateThumbprint></ClientCertificateThumbprint>
     <AutomaticCertSelection>true</AutomaticCertSelection>
     <AutoConnect>true</AutoConnect>
